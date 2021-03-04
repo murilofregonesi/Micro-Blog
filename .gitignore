@@ -1,6 +1,3 @@
-# Murilo files
-*\mongo_connection_string.py
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
