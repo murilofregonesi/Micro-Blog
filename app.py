@@ -12,7 +12,7 @@ def create_app():
     app.db = client.microblog
     entries = app.db.entries
 
-    @app.route('/home/', methods=["GET", "POST"])
+    @app.route('/', methods=["GET", "POST"])
     def home():
         if request.method == 'POST':
             content = request.form.get('content')
