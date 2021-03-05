@@ -1,7 +1,6 @@
 from flask import Flask, render_template, request
 from pymongo import MongoClient
 from datetime import datetime
-from mongo_connection_string import connection_string
 
 from dotenv import load_dotenv
 import os
