@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Micro Blog</title>
+    <link rel="stylesheet" href="\static\css\styles.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="navbar__brand">
+            <img src="\static\logo.svg" alt="Logo Micro Blog" class="navbar__logo">Micro Blog
+        </div>
+        <ul class="navbar__navigation">
+            <li class="navbar__navigation-item"><a href="#" class="navbar__link">Recent</a></li>
+            <li class="navbar__navigation-item"><a href="#" class="navbar__link">Calendar</a></li>
+        </ul>
+    </header>
+
+    <main class="main">
+        <form action="/sign_in/" class="sign_in_form" method="POST">
+            <p>
+                <label for="sign_in">E-mail</label>
+                <input type="text" id="sign_in" name="sign_in_user"/>
+            </p>
+            <p>
+                <label for="password">Password</label>
+                <input type="text" id="password" name="sign_in_pass"/>
+            </p>
+            <button type="submit">Sign In</button>
+        </form>
+        <a href="/sign_up/">Sign up</a>
+    </main>
+    
+    <footer class="footer">
+        <div class="footer__content">
+            <section class="left">
+                <a href="#" class="footer__item">Made by Murilo</a>
+                <a href="#" class="footer__item">Check out other projects</a>
+            </section>
+            <section class="right">
+                <div class="footer__column">
+                    <a href="#" class="footer__item">Recent</a>
+                    <a href="#" class="footer__item">Calendar</a>
+                </div>
+                <div class="footer__column">
+                    <a href="#" class="footer__item">About</a>
+                    <a href="#" class="footer__item">How this was made</a>
+                </div>
+            </section>
+        </div>
+    </footer>
+</body>
+</html>
